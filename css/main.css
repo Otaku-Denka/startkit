@@ -1,0 +1,46 @@
+.test:after {
+  content: '';
+  display: block;
+  clear: both; }
+
+.test {
+  font-size: calc(12px + 9 * ((100vw - 420px) / 860)); }
+
+@media screen and (min-width: 1280px) {
+
+  .test {
+    font-size: 21px; } }
+
+@media screen and (max-width: 420px) {
+
+  .test {
+    font-size: 12px; } }
+
+.test2 {
+  background: red;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: calc(100+100);
+  max-width: 80%;
+  margin-left: auto;
+  margin-right: auto; }
+
+.test2:before {
+  content: '';
+  display: table; }
+
+.test2:after {
+  content: '';
+  display: table;
+  clear: both; }
+  @media (max-width: 70em) {
+    .test2 {
+      background: red; } }
+
+.sss {
+  background: red; }
+
+.aaa {
+  color: green; }

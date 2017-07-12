@@ -1,0 +1,25 @@
+{
+  "name": "node-sass",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "autoprefixer": "^7.1.2",
+    "breakpoint": "^0.1.6",
+    "gulp": "^3.9.1",
+    "gulp-postcss": "^7.0.0",
+    "gulp-sass": "^3.1.0",
+    "lost": "^8.1.0",
+    "postcss": "^6.0.6",
+    "postcss-custom-media": "^6.0.0",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "react-scripts": "1.0.10",
+    "rucksack-css": "^0.9.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}

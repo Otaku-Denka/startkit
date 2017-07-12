@@ -1,0 +1,23 @@
+@custom-media --mobile (max-width: 70em);
+
+
+
+
+
+.test {
+  clear: fix;
+  font-size: responsive 12px 21px;
+  font-range: 420px 1280px;
+}
+
+.test2 {
+  background: red;
+  display: flex;
+  width: calc(100+100);
+  lost-center: 80%;
+  @media (--mobile) {
+    background: red;
+  }  
+}
+
+
